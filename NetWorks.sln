@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5050ED86-91B9-4D52-9D81-50047244752A}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		NetWorks.vsmdi = NetWorks.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetWorks.Test", "NetWorks.Test\NetWorks.Test.csproj", "{59EF19DE-AA93-4BF9-A479-8952D2BF3168}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetWorks", "NetWorks\NetWorks.csproj", "{4471CAE2-6CEC-41BD-B064-1E51B13A7732}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = NetWorks.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59EF19DE-AA93-4BF9-A479-8952D2BF3168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59EF19DE-AA93-4BF9-A479-8952D2BF3168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59EF19DE-AA93-4BF9-A479-8952D2BF3168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59EF19DE-AA93-4BF9-A479-8952D2BF3168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4471CAE2-6CEC-41BD-B064-1E51B13A7732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4471CAE2-6CEC-41BD-B064-1E51B13A7732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4471CAE2-6CEC-41BD-B064-1E51B13A7732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4471CAE2-6CEC-41BD-B064-1E51B13A7732}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
