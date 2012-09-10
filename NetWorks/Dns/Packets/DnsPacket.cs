@@ -249,7 +249,7 @@ namespace NetWorks.Dns.Packets
 
             public byte[] GetBytes()
             {
-                
+                return null;
             }
         }
 
