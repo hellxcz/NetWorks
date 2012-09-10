@@ -1,10 +1,11 @@
 using System;
 using System.Collections.Generic;
+using NetWorks.Common;
 using Type = NetWorks.Common.Type;
 
 namespace NetWorks.Icmp.Datagrams
 {
-    public class IcmpDatagram
+    public class IcmpDatagram : IHaveGetBytes
     {
         private static Dictionary<byte, Type> Types { get; set; }
         public static Type GetType(byte code)
